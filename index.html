@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelZona - Catálogo de Videojuegos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado de la PYME -->
+    <header class="navbar">
+        <div class="logo">🎮 <strong>PixelZona</strong></div>
+        <a href="#" class="btn-login">Iniciar sesión</a>
+    </header>
+
+    <main class="container">
+        <h1 class="main-title">Catálogo de Videojuegos</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 40px;">
+            Selecciona una categoría para explorar nuestros títulos disponibles.
+        </p>
+
+        <!-- Grilla con las 5 Categorías obligatorias -->
+        <section class="categories-grid">
+
+            <!-- Categoría 1: Supervivencia -->
+            <a href="categoria-supervivencia.html" class="category-card">
+                <div class="category-image">
+                    <img src="img/cat-supervivencia.jpg" alt="Supervivencia" onerror="this.style.display='none'">
+                    <span>🏕️</span>
+                </div>
+                <h2>Supervivencia</h2>
+            </a>
+
+            <!-- Categoría 2: Acción / Aventura -->
+            <a href="categoria-accion.html" class="category-card">
+                <div class="category-image">
+                    <img src="img/cat-accion.jpg" alt="Acción" onerror="this.style.display='none'">
+                    <span>⚔️</span>
+                </div>
+                <h2>Acción</h2>
+            </a>
+
+            <!-- Categoría 3: Carreras -->
+            <a href="categoria-carreras.html" class="category-card">
+                <div class="category-image">
+                    <img src="img/cat-carreras.jpg" alt="Carreras" onerror="this.style.display='none'">
+                    <span>🏎️</span>
+                </div>
+                <h2>Carreras</h2>
+            </a>
+
+            <!-- Categoría 4: Deportes -->
+            <a href="categoria-deportes.html" class="category-card">
+                <div class="category-image">
+                    <img src="img/cat-deportes.jpg" alt="Deportes" onerror="this.style.display='none'">
+                    <span>⚽</span>
+                </div>
+                <h2>Deportes</h2>
+            </a>
+
+            <!-- Categoría 5: Estrategia -->
+            <a href="categoria-estrategia.html" class="category-card">
+                <div class="category-image">
+                    <img src="img/cat-estrategia.jpg" alt="Estrategia" onerror="this.style.display='none'">
+                    <span>🧠</span>
+                </div>
+                <h2>Estrategia</h2>
+            </a>
+
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 20px; color: #888; font-size: 0.9rem;">
+        <p>&copy; 2026 PixelZona PYME. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
